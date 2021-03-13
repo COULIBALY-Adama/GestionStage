@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>VisiteurServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.VisiteurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VisiteurServlet</servlet-name>
+    <url-pattern>/Partage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OffreServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.OffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OffreServlet</servlet-name>
+    <url-pattern>/offres</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SupprOffreServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.SupprOffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SupprOffreServlet</servlet-name>
+    <url-pattern>/Suppr1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteOffreServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.DeleteOffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteOffreServlet</servlet-name>
+    <url-pattern>/Suppr2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ListeLiensServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.ListeLiensServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListeLiensServlet</servlet-name>
+    <url-pattern>/Offr</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AccueilServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.AccueilServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccueilServlet</servlet-name>
+    <url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ListeOffreServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.ListeOffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListeOffreServlet</servlet-name>
+    <url-pattern>/LesOffres</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RecupLienOffreServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.RecupererLienOffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecupLienOffreServlet</servlet-name>
+    <url-pattern>/Recup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/SeConnecter</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Deconnexion</servlet-name>
+    <servlet-class>com.tpgestionprojet.servlet.Deconnexion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Deconnexion</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
